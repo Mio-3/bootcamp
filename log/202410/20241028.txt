@@ -1,0 +1,18 @@
+  - 作業内容
+  gitの課題に関して、用語などの説明を各ファイルで記載させていただきました。
+  gitの用語集などをインターネットで調べて、改めて復習の機会にさせていただきました。
+
+
+  - 参考にしたURL
+  https://qiita.com/toshi_um/items/72c9d929a600323b2e77
+
+  https://qiita.com/shinshingodmt/items/637cf9e5c6660509c460
+
+  https://zenn.dev/zmb/articles/054ba4189244a5#
+
+  https://backlog.com/ja/git-tutorial/pull-request/01/
+
+  https://git.command-ref.com/basic-word.html
+
+  https://www.kagoya.jp/howto/it-glossary/develop/githubflow/
+
