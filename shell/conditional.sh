@@ -1,8 +1,8 @@
 # 数値の比較
-num1=10
-num2=20
+number1=10
+number2=20
 
-if [ $num1 -eq $num2 ]; then
+if [ $number1 -eq $number2 ]; then
   echo "num1 と num2 は等しい"
 else
   echo "値は等しくありません"
@@ -10,13 +10,13 @@ fi
 
 
 # 文字列の比較
-str="こんにちは"
+word="こんにちは"
 
-if [ $str = "こんにちは" ];  then
-  echo "${str}"
+if [ $word = "こんにちは" ];  then
+  echo "${word}"
   echo "こんにちは!!!"
-elif [ $str = "こんばんは" ];  then
-  echo "${str}"
+elif [ $word = "こんばんは" ];  then
+  echo "${word}"
   echo "こんばんは!!!"
 else
   echo "もう寝ようぜ~"
