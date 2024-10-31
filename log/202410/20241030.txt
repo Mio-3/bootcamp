@@ -3,14 +3,6 @@
   branchを分けて、PRも課題ごとに分ける作業を行いました。
   またshellの課題に関して、echoコマンドや条件分岐、繰り返し処理の課題に取り組みました。
 
-
-  - 参考にしたURL
-  https://qiita.com/empty948/items/6031785e23d8fdbb1a5a
-
-  https://qiita.com/laikuaut/items/642aa329a8d214a2cccb
-
-  https://qiita.com/ytyng/items/d7afe80ef9da7aa8b721
-
   - 作業予定時間
   3時間
 
