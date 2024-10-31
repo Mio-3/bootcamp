@@ -4,7 +4,6 @@
 
   - 実行結果
 
-  
   diff --git a/git/git-command.txt b/git/git-command.txt
   index e69de29..945b277 100644
   --- a/git/git-command.txt
