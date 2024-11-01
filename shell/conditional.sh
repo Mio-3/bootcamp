@@ -3,7 +3,7 @@ number_one=10
 number_two=20
 
 if [ $number_one -eq $number_two ]; then
-  echo "num1 と num2 は等しい"
+  echo "number_one と number_two は等しい"
 else
   echo "値は等しくありません"
 fi
