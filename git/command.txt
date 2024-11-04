@@ -1,0 +1,59 @@
+-  clone
+git clone <ブランチ名> or <URL>
+説明:リモートブランチを複製して、ローカルブランチを作成し、カレントディレクトリに保存する。
+
+-  branch
+git branch
+git branch -a
+git branch -d ブランチ名
+git branch -D ブランチ名
+説明:ローカルリポジトリのブランチを操作する。
+
+-  checkout
+git checkout ブランチ名
+git checkout コミット値
+git checkout -b ブランチ名
+説明:指定したブランチに切り替えるコマンド
+
+-  log
+git log
+説明:コミットの履歴や詳細を表示。
+
+- status
+git status
+説明:インデックス / ステージされたファイルの一覧を表示する。
+
+-  add
+git add
+git add -u
+git add ファイル名
+git add -n
+説明:指定したファイル名、もしくはオプションに応じたファイルをステージングする。
+
+-  commit
+git commit -m "メッセージ"
+説明:インデックスに登録されたファイルをリモートリポジトリにコミットする。
+
+-  diff
+git diff
+説明:コミットやローカルブランチとリモートブランチの異なる点を表示する。
+
+-  push
+git push
+説明:ローカルリポジトリの変更をリモートリポジトリに送信して、コミットを更新する。
+
+-  pull
+git pull
+git pull リモートブランチ名 ブランチ名
+git pull origin ブランチ名
+説明:リモートブランチの変更などの情報を取得して作業のブランチに取り込む。
+
+-  fetch
+git fetch
+git fetch ブランチ名
+git fetch リモートブランチ名/ブランチ名
+説明:ローカルリポジトリとリモートリポジトリを同期することで、変更した情報を取得する。
+
+-  merge
+git merge ブランチ名
+説明:ローカルブランチ内の全てのブランチのコミットを作業中のブランチにマージする。
