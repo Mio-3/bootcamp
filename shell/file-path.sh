@@ -1,5 +1,5 @@
 # 実行コマンド: bash file-path.sh /path/to/file.txt
-$file_path=$1
+file_path=$1
 
 if [[ "$file_path" = /* ]]; then
   echo "絶対パスです : $file_path"
