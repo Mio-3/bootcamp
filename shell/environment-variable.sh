@@ -1,7 +1,7 @@
-export my_name="Kazuma"
-export my_age=20
-export my_job="University Student"
+export MY_NAME="Kazuma"
+export MY_AGE=20
+export MY_JOB="University Student"
 
-echo "Name: $my_name"
-echo "Age: $my_age"
-echo "Job: $my_job"
+echo "Name: $MY_NAME"
+echo "Age: $MY_AGE"
+echo "Job: $MY_JOB"
