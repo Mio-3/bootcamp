@@ -1,5 +1,12 @@
 number_direction=$1
 
+# 引数がない場合のバリデーション
+if [ -z "$number_direction" ]; then
+  echo "エラー:ディレクトリの数を指定してください。"
+  exit 1
+fi
+
+
 mkdir -p out
 
 for i in $(seq 1 $number_direction);
