@@ -1,6 +1,12 @@
 # 実行コマンド: bash file-path.sh /path/to/file.txt
 file_path=$1
 
+# 引数がない時のバリデーション
+if [ -z "$file_path" ]; then
+  echo "エラー: ファイルパスを指定してください。"
+  exit 1
+fi
+
 if [[ "$file_path" = /* ]]; then
   echo "絶対パスです : $file_path"
 else
